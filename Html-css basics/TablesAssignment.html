@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>
+      Tables Assignment
+    </title>
+    <style>
+        table{
+            border-collapse: collapse;
+            border-radius: 10px 10px;
+            overflow: hidden;
+            width: 50%;
+
+        }
+        table, tr:last-child td {
+  border-bottom: 5px solid red; /* Bottom border with custom color */
+}
+        tr{
+            padding: 3px;
+            vertical-align: middle;
+             text-align: center;
+            border-bottom: 1px slategrey solid;
+        }
+        td{
+            padding: 5px;
+            vertical-align: middle;
+             text-align: center;
+        }
+        th{
+            background-color: green;
+             text-align: center;
+            
+        }
+
+        .one{
+            background-color: aqua;
+            border-collapse: collapse;
+        }
+         }
+        /* Create a separate header row with rounded corners */
+        .two {
+            border: 2px black; /* Outer border */
+            border-radius: 10px; /* Rounded corners */
+            overflow: hidden; /* Prevents overflow */
+        }
+        /* Inner header cells without borders */
+        .two th {
+            border: none; /* Remove borders from header cells */
+        }
+
+
+
+    </style>
+</head>
+<body>
+   <table>
+       <tr class="two">
+           <th>Rank</th>
+           <th>Name</th>
+           <th>Points</th>
+           <th>Team</th>
+       </tr>
+       <tr>
+           <td>1</td>
+           <td>Domenic</td>
+           <td>88110</td>
+           <td>dcode</td>
+       </tr>
+       <tr class="one">
+           <td>2</td>
+           <td>Sally</td>
+           <td>72400</td>
+           <td>Students</td>
+       </tr>
+       <tr>
+           <td>3</td>
+           <td>Nick</td>
+           <td>52300</td>
+           <td>dcode</td>
+       </tr>
+   </table>
+
+</body>
+
+
+</html>

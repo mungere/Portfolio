@@ -1,0 +1,13 @@
+body{
+    background-color: darkolivegreen;
+    font-family: Algerian ;
+
+}
+h{
+    color: black;
+    text-align: center;
+}
+button{
+     padding: 5px 10px;
+    background-color:lightseagreen ;
+}
